@@ -1,0 +1,23 @@
+{
+  "name": "event-reminder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/index.js",
+  "scripts": {
+    "start": "npm run build && node ./dist/index.js",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "openai": "^4.89.0",
+    "express": "^4.21.2",
+    "@line/bot-sdk": "^9.7.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.2",
+    "@types/express": "^5.0.1"
+  }
+}
